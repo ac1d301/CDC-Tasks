@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navigation Bars</title>
+  <style>
+    
+    .vertical {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: #b0ecf1;
+      position: fixed; 
+      top: 0;
+      left: 0;
+    }
+
+    .vertical li a {
+      display: block;
+      padding: 10px 16px;
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      &:hover {
+        background-color: #ffd500;
+        color: white;
+      }
+    }
+
+    .horizontal {
+      list-style-type: none;
+      margin: 200px;
+      padding: 0;
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+
+    .horizontal li {
+      display: inline-block;
+      padding: 10px 16px;
+    }
+
+    .horizontal li a {
+      text-decoration: none;
+      color: rgb(0, 47, 255);
+      &:hover {
+        background-color: #423f3f;
+        color: white;
+      }
+    }
+  </style>
+</head>
+<body>
+    <ul class="vertical">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">Bootstrap</a></li>
+      </ul>
+    
+      <ul class="horizontal">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">Bootstrap</a></li>
+      </ul>
+
+</body>
+</html>
